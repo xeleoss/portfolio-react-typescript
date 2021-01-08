@@ -36,7 +36,7 @@ export default function Contacts() {
         <a
           href={c.url ?? '*'}
           className="contacts__contact"
-          key={c.name}
+          key={c.name + c.url}
           rel="noreferrer"
           target="_blank"
         >

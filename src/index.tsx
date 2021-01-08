@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter  } from 'react-router-dom';
+import { HashRouter  } from 'react-router-dom';
 import './localization/i18n';
 import './index.scss';
 import App from './App';
@@ -8,11 +8,11 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename={`${process.env.PUBLIC_URL  }/`}>
+    <HashRouter>
       <Suspense fallback={<div className="m-5">Loading...</div>}>
         <App />
       </Suspense>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

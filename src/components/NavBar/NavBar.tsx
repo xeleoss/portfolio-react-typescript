@@ -12,9 +12,24 @@ export default function NavBar() {
     i18n.changeLanguage(language).then();
   };
 
+  const langs = (
+    <div>
+      {languages.filter(x => i18n.language !== x.value).map((lang) => (
+        <button
+          className="button-lang"
+          type="button"
+          key={lang.value}
+          onClick={() => changeLanguage(lang.value)}
+        >
+          {lang.label}
+        </button>
+      ))}
+    </div>
+  );
+
   return (
     <header className="header">
-      <span className="header__title">{t('name')}</span>
+      <a href={process.env.PUBLIC_URL} className="header__title">{t('name')}</a>
       <div className="header__links">
         {routes.map((x) => (
           <Link
@@ -27,20 +42,7 @@ export default function NavBar() {
           </Link>
         ))}
       </div>
-      <div>
-        {languages.map((lang) => (
-          <>
-            {i18n.language !== lang && <button
-              className="button-lang"
-              type="button"
-              key={lang}
-              onClick={() => changeLanguage(lang)}
-            >
-                {lang.toUpperCase()}
-            </button>}
-          </>
-        ))}
-      </div>
+      {langs}
     </header>
   );
 }

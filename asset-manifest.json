@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio-react-typescript/static/css/main.4cf212dd.chunk.css",
+    "main.js": "/portfolio-react-typescript/static/js/main.96c4b764.chunk.js",
+    "main.js.map": "/portfolio-react-typescript/static/js/main.96c4b764.chunk.js.map",
+    "runtime-main.js": "/portfolio-react-typescript/static/js/runtime-main.53bac446.js",
+    "runtime-main.js.map": "/portfolio-react-typescript/static/js/runtime-main.53bac446.js.map",
+    "static/js/2.6bf808bc.chunk.js": "/portfolio-react-typescript/static/js/2.6bf808bc.chunk.js",
+    "static/js/2.6bf808bc.chunk.js.map": "/portfolio-react-typescript/static/js/2.6bf808bc.chunk.js.map",
+    "static/js/3.ec3d4804.chunk.js": "/portfolio-react-typescript/static/js/3.ec3d4804.chunk.js",
+    "static/js/3.ec3d4804.chunk.js.map": "/portfolio-react-typescript/static/js/3.ec3d4804.chunk.js.map",
+    "index.html": "/portfolio-react-typescript/index.html",
+    "static/css/main.4cf212dd.chunk.css.map": "/portfolio-react-typescript/static/css/main.4cf212dd.chunk.css.map",
+    "static/js/2.6bf808bc.chunk.js.LICENSE.txt": "/portfolio-react-typescript/static/js/2.6bf808bc.chunk.js.LICENSE.txt",
+    "static/media/AboutMe.scss": "/portfolio-react-typescript/static/media/code.7813d34c.png",
+    "static/media/getFetch.cjs": "/portfolio-react-typescript/static/media/getFetch.d7d6010d.cjs",
+    "static/media/github.d1bb13ce.svg": "/portfolio-react-typescript/static/media/github.d1bb13ce.svg",
+    "static/media/vk.b65afadd.svg": "/portfolio-react-typescript/static/media/vk.b65afadd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53bac446.js",
+    "static/js/2.6bf808bc.chunk.js",
+    "static/css/main.4cf212dd.chunk.css",
+    "static/js/main.96c4b764.chunk.js"
+  ]
+}

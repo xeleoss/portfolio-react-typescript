@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { BrowserRouter  } from 'react-router-dom';
+import './localization/i18n';
+import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter basename={`${process.env.PUBLIC_URL  }/`}>
+      <Suspense fallback={<div className="m-5">Loading...</div>}>
+        <App />
+      </Suspense>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

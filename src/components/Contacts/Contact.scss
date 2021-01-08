@@ -1,0 +1,27 @@
+@import "src/scss/colors";
+@import "src/scss/mixins";
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 10px;
+  &__contact {
+    margin: 5px;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: auto;
+      max-width: 100%;
+      width: 50px;
+      margin-right: 5px;
+    }
+
+    @include hover();
+  }
+}

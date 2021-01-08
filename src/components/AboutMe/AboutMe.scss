@@ -1,0 +1,36 @@
+@import "./src/scss/mixins";
+
+.about-me {
+  min-height: 300px;
+
+  @media screen and (min-width: 900px) {
+    display: flex;
+    & > * {
+      @include widthColumns(2);
+    }
+  }
+}
+
+.my-info {
+  padding: 20px;
+  background-color: #1d3460;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/assets/images/code.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+
+  &_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-profession {
+      color: white;
+      font-size: 30px;
+      font-family: monospace;
+    }
+  }
+}

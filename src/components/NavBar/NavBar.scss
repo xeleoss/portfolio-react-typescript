@@ -1,0 +1,61 @@
+@import "src/scss/mixins";
+@import "src/scss/colors";
+
+.header {
+  min-height: 50px;
+  font-size: 24px;
+  padding: 10px;
+  background-color: #1d3460;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    color: white;
+    margin: 0 5px;
+  }
+
+  &__links {
+    flex-grow: 1;
+
+    @media screen and (min-width: 600px) {
+      margin-left: 20px;
+    }
+
+    &-link {
+      color: white;
+      padding: 5px;
+      text-decoration: none;
+
+      &:hover {
+        color: $hover;
+      }
+
+      &[data-active=true] {
+        color: $active;
+      }
+    }
+  }
+
+  @media screen and (max-width: 599px) {
+    & > * {
+      margin: 5px;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.button-lang {
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+
+  @include hover();
+}
+
+

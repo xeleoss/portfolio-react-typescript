@@ -1,0 +1,15 @@
+@import "src/scss/mixins";
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  border: 1px solid #7a7b7e;
+  border-radius: 10px/6px;
+  text-align: center;
+  box-shadow: 0 0 5px 0 #74bce3;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}

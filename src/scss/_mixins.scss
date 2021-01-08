@@ -1,0 +1,11 @@
+@import "colors";
+
+@mixin widthColumns($cols) {
+  width: (100% / $cols);
+}
+
+@mixin hover() {
+  &:hover {
+    color: $hover;
+  }
+}

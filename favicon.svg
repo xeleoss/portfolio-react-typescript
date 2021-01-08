@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="192" height="192" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        stroke: #000;
+        stroke-width: 5px;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        font-size: 12px;
+        text-anchor: middle;
+      }
+
+      .cls-3, .cls-5 {
+        font-family: Stylo;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <path id="text-path"/>
+  </defs>
+  <g id="Монтажная_область_1" data-name="Монтажная область 1">
+    <rect id="Прямоугольник_1" data-name="Прямоугольник 1" class="cls-1" x="2.563" y="2.563" width="506.875" height="506.875" rx="75" ry="75"/>
+    <text class="cls-2"><textPath startOffset="50%" xlink:href="#text-path"><tspan class="cls-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </tspan></textPath></text>
+    <circle id="Эллипс_1" data-name="Эллипс 1" class="cls-4" cx="256" cy="148" r="121.688"/>
+    <path id="Прямоугольник_скругл._углы_1" data-name="Прямоугольник, скругл. углы 1" class="cls-4" d="M149.5,256h213A110.5,110.5,0,0,1,473,366.5V477a0,0,0,0,1,0,0H39a0,0,0,0,1,0,0V366.5A110.5,110.5,0,0,1,149.5,256Z"/>
+    <text id="c_" data-name="c#" class="cls-5" transform="translate(143.178 429.823) scale(24.187)">c#</text>
+    <text id="_" data-name=")" class="cls-5" transform="translate(222.817 206.431) rotate(70.978) scale(9.42)">)</text>
+    <text id="TS" class="cls-5" transform="translate(365.546 429.481) scale(14.001)">TS</text>
+    <text id="___" data-name="_ _" class="cls-5" transform="translate(246.363 110.9) scale(13.213)">_ _</text>
+    <text id="_2" data-name="]" transform="translate(255.999 167.945) scale(4.584)"/>  </g>
+</svg>

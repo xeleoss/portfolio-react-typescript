@@ -1,0 +1,89 @@
+.game {
+  padding-left: 10px;
+  width: 600px;
+  height: 200px;
+  border-bottom: 1px solid #000;
+  margin: auto;
+  user-select: none;
+  outline: none;
+  position: relative;
+
+  @media screen and (max-width: 1290px) and (min-width: 900px) {
+    display: none;
+  }
+
+  @media screen and (max-width: 700px) {
+    display: none;
+  }
+
+  &__dino {
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/images/dino.png);
+    background-size: 50px 50px;
+    top: 150px;
+    position: absolute;
+  }
+
+  &__cactus {
+    width: 20px;
+    height: 40px;
+    background-image: url(/assets/images/cactus.png);
+    background-size: 20px 40px;
+    position: absolute;
+    top: 160px;
+    left: 580px;
+
+    &[data-started=true] {
+      animation: cactusMov 1s infinite linear;
+    }
+  }
+
+  &__jump {
+    animation: jump 0.3s linear;
+  }
+
+  &__game-over {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+
+    &[data-show=false] {
+      display: none;
+    }
+  }
+
+  &__counter {
+    font-size: 24px;
+    text-align: right;
+    width: 100%;
+  }
+}
+
+@keyframes cactusMov {
+  0% {
+    left: 580px;
+  }
+  100% {
+    left: -20px;
+  }
+}
+
+@keyframes jump {
+  0% {
+    top: 150px;
+  }
+  30% {
+    top: 130px;
+  }
+  50% {
+    top: 80px;
+  }
+  80% {
+    top: 130px;
+  }
+  100% {
+    top: 150px;
+  }
+}

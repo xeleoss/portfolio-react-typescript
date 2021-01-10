@@ -1,6 +1,7 @@
 import React from 'react';
 import './MyProjects.scss';
 import { useTranslation } from 'react-i18next';
+import Game from "../Game/Game";
 
 export default function MyProjects() {
   const { t } = useTranslation();
@@ -20,6 +21,7 @@ export default function MyProjects() {
         </dd>
         <dd>{t('other')}..</dd>
       </dl>
+      <Game/>
     </section>
   );
 }

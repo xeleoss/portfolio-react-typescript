@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-react-typescript/static/css/main.82c80ac3.chunk.css",
+    "main.css": "/portfolio-react-typescript/static/css/main.732d86c5.chunk.css",
     "main.js": "/portfolio-react-typescript/static/js/main.b29107fd.chunk.js",
     "main.js.map": "/portfolio-react-typescript/static/js/main.b29107fd.chunk.js.map",
     "runtime-main.js": "/portfolio-react-typescript/static/js/runtime-main.34d83508.js",
@@ -12,7 +12,7 @@
     "static/js/3.45884adc.chunk.js.map": "/portfolio-react-typescript/static/js/3.45884adc.chunk.js.map",
     "index.html": "/portfolio-react-typescript/index.html",
     "static/css/2.3f6a4e7d.chunk.css.map": "/portfolio-react-typescript/static/css/2.3f6a4e7d.chunk.css.map",
-    "static/css/main.82c80ac3.chunk.css.map": "/portfolio-react-typescript/static/css/main.82c80ac3.chunk.css.map",
+    "static/css/main.732d86c5.chunk.css.map": "/portfolio-react-typescript/static/css/main.732d86c5.chunk.css.map",
     "static/js/2.cdf618ab.chunk.js.LICENSE.txt": "/portfolio-react-typescript/static/js/2.cdf618ab.chunk.js.LICENSE.txt",
     "static/media/Game.scss": "/portfolio-react-typescript/static/media/dino.ded89ead.png",
     "static/media/AboutMe.scss": "/portfolio-react-typescript/static/media/code.7813d34c.png",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.34d83508.js",
     "static/css/2.3f6a4e7d.chunk.css",
     "static/js/2.cdf618ab.chunk.js",
-    "static/css/main.82c80ac3.chunk.css",
+    "static/css/main.732d86c5.chunk.css",
     "static/js/main.b29107fd.chunk.js"
   ]
 }

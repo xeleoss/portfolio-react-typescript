@@ -1,15 +1,30 @@
 @import 'src/scss/mixins';
+@import 'src/scss/colors';
 
 .skill {
   display: flex;
   justify-content: space-between;
-  background-color: white;
-  color: black;
+  background-color: #7296b4;
+  color: $yellow;
   border: 1px solid #7a7b7e;
   border-radius: 10px/6px;
   text-align: center;
-  box-shadow: 0 0 5px 0 #74bce3;
+  box-shadow: 0 0 5px 0 $yellow;
   align-items: center;
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
+  font-weight: bold;
+  transition: all 0.5s 0s ease-in-out;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  &:hover {
+    transform: rotate(-10deg);
+    color: white;
+    &:after {
+      content: '!';
+    }
+  }
 }

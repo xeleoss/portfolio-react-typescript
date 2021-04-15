@@ -1,33 +1,6 @@
 import React from 'react';
 import './Contact.scss';
-import github from '../../assets/icons/github.svg';
-import vk from '../../assets/icons/vk.svg';
-
-enum ContactType {
-  Site,
-}
-
-type Contact = {
-  name: string;
-  url?: string;
-  type?: ContactType;
-  icon: any;
-};
-
-const contacts: Contact[] = [
-  {
-    name: '',
-    url: 'https://github.com/xeleoss',
-    type: ContactType.Site,
-    icon: github,
-  },
-  {
-    name: '',
-    url: 'https://vk.com/soelex',
-    type: ContactType.Site,
-    icon: vk,
-  },
-];
+import { contacts } from './helpers';
 
 export default function Contacts() {
   return (

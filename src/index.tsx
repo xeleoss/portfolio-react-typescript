@@ -5,11 +5,14 @@ import './localization/i18n';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 ReactDOM.render(
   <React.StrictMode>
     <HashRouter>
       <Suspense fallback={<div className="m-5">Loading...</div>}>
+        <ToastContainer />
         <App />
       </Suspense>
     </HashRouter>

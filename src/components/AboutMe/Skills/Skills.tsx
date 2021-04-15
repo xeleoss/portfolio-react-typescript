@@ -6,11 +6,23 @@ import SkillComponent from '../SkillComponent/SkillComponent';
 import Skill from '../../../interfaces/Skill';
 
 const mySkills: Skill[] = [
-  { label: 'C#', icon: TagFacesIcon },
-  { label: 'TypeScript', icon: TagFacesIcon },
-  { label: 'JavaScript' },
-  { label: 'React' },
-  { label: 'Angular' },
+  {
+    label: 'C#',
+    icon: TagFacesIcon,
+    toast: 'Любимый язык, с его помощью пишу Амадеуса начиная с 2019 года',
+  },
+  {
+    label: 'TypeScript',
+    icon: TagFacesIcon,
+    toast: 'Основной язык, который использую на работе',
+  },
+  {
+    label: 'JavaScript',
+    toast:
+      'Из-за использования TypeScript его знаю тоже, но стараюсь на нём ничего не писать, так как типизация ванлав',
+  },
+  { label: 'React', toast: 'Пишу на хуках, классы уже не помню' },
+  { label: 'Angular', toast: 'Использовал на работе с 8 по 10 версии' },
 ];
 
 export default function Skills() {
@@ -21,11 +33,7 @@ export default function Skills() {
         <h2>{t('skills title')}</h2>
         <div className="skills__list">
           {mySkills.map((data) => (
-            <SkillComponent
-              key={data.label}
-              icon={data.icon}
-              label={data.label}
-            />
+            <SkillComponent key={data.label} skill={data} />
           ))}
         </div>
       </div>

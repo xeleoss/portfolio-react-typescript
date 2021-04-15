@@ -15,6 +15,15 @@ export default function MyProjects() {
             {t('amadeus')}
           </a>
         </dd>
+        <dd>
+          <a
+            href="https://github.com/xeleoss/portfolio-react-typescript"
+            rel="noreferrer"
+            target="_blank"
+          >
+            {t('current site')}
+          </a>
+        </dd>
         <dd>{t('other')}..</dd>
       </dl>
       <Game />

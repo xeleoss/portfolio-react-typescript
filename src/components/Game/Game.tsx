@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 enum StatusGame {
   NoGame,
   Game,
-  GameOver
+  GameOver,
 }
 
 export default function Game() {
@@ -17,10 +17,10 @@ export default function Game() {
   const [counter, setCounter] = useState(0);
   useEffect(() => {
     let timeout: NodeJS.Timeout | null = null;
-    if (dinoClasses.find(x => x === 'game__jump')) {
+    if (dinoClasses.find((x) => x === 'game__jump')) {
       timeout = setTimeout(() => {
-        setDinoClasses(x => x.filter(v => v !== 'game__jump'));
-        setCounter(c => c + 1);
+        setDinoClasses((x) => x.filter((v) => v !== 'game__jump'));
+        setCounter((c) => c + 1);
       }, 300);
     }
     return () => {
@@ -76,10 +76,7 @@ export default function Game() {
       >
         {t('game over')}!
       </div>
-      <div
-        ref={dinoRef}
-        className={clsx('game__dino', dinoClasses)}
-      />
+      <div ref={dinoRef} className={clsx('game__dino', dinoClasses)} />
       <div
         ref={cactusRef}
         className="game__cactus"

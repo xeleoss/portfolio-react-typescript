@@ -5,7 +5,7 @@ import { initReactI18next } from 'react-i18next';
 
 export const languages = [
   { label: 'EN', value: 'en-US' },
-  { label: 'RU', value: 'ru-RU' }
+  { label: 'RU', value: 'ru-RU' },
 ];
 
 i18n
@@ -15,10 +15,10 @@ i18n
   .init({
     backend: {
       loadPath: `${process.env.PUBLIC_URL}/locales/{{lng}}/{{ns}}.json`,
-      addPath : `${process.env.PUBLIC_URL}/locales/locales/add/{{lng}}/{{ns}}`,
+      addPath: `${process.env.PUBLIC_URL}/locales/locales/add/{{lng}}/{{ns}}`,
     },
     fallbackLng: languages[0].value,
-    supportedLngs: languages.map(x => x.value),
+    supportedLngs: languages.map((x) => x.value),
     debug: false,
     interpolation: {
       escapeValue: false,

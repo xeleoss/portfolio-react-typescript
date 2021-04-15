@@ -4,7 +4,7 @@ import github from '../../assets/icons/github.svg';
 import vk from '../../assets/icons/vk.svg';
 
 enum ContactType {
-  Site
+  Site,
 }
 
 type Contact = {

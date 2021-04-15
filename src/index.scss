@@ -2,7 +2,9 @@ body {
   margin: 0;
 }
 
-html, body, #root, {
+html,
+body,
+#root {
   min-height: 100vh;
   min-width: 100%;
 }
@@ -10,10 +12,11 @@ html, body, #root, {
 html {
   box-sizing: border-box;
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
   font-family: inherit;
 }

@@ -14,22 +14,26 @@ export default function NavBar() {
 
   const langs = (
     <div>
-      {languages.filter(x => i18n.language !== x.value).map((lang) => (
-        <button
-          className="button-lang"
-          type="button"
-          key={lang.value}
-          onClick={() => changeLanguage(lang.value)}
-        >
-          {lang.label}
-        </button>
-      ))}
+      {languages
+        .filter((x) => i18n.language !== x.value)
+        .map((lang) => (
+          <button
+            className="button-lang"
+            type="button"
+            key={lang.value}
+            onClick={() => changeLanguage(lang.value)}
+          >
+            {lang.label}
+          </button>
+        ))}
     </div>
   );
 
   return (
     <header className="header">
-      <a href={process.env.PUBLIC_URL} className="header__title">{t('name')}</a>
+      <a href={process.env.PUBLIC_URL} className="header__title">
+        {t('name')}
+      </a>
       <div className="header__links">
         {routes.map((x) => (
           <Link

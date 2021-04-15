@@ -6,6 +6,6 @@ const routes: Route[] = [
     path: '/about-me',
     label: 'about me',
     component: AboutMe,
-  }
+  },
 ];
 export default routes;

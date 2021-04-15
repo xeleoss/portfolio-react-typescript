@@ -11,9 +11,7 @@ export default function AboutMe() {
     <main className="about-me">
       <section className="my-info">
         <div className="my-info_text">
-          <span className="my-info_text-profession">
-            {t('profession')}
-          </span>
+          <span className="my-info_text-profession">{t('profession')}</span>
         </div>
       </section>
       <Skills />

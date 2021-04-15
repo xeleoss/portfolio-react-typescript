@@ -18,7 +18,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
-    "sourceMap": true,
     "noEmit": true,
     "pretty": true,
     "inlineSourceMap": true,

@@ -12,9 +12,7 @@ function App() {
       </main>
       <footer className="pageFooter">
         <Contacts />
-        <div className="pageFooter__branding">
-            © copyright 2021
-        </div>
+        <div className="pageFooter__branding">© copyright 2021</div>
       </footer>
     </>
   );

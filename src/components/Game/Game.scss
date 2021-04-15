@@ -34,7 +34,7 @@
     top: 160px;
     left: 580px;
 
-    &[data-started=true] {
+    &[data-started='true'] {
       animation: cactusMov 1s infinite linear;
     }
   }
@@ -49,7 +49,7 @@
     font-size: 24px;
     font-weight: bold;
 
-    &[data-show=false] {
+    &[data-show='false'] {
       display: none;
     }
   }

@@ -1,5 +1,5 @@
-@import "src/scss/mixins";
-@import "src/scss/colors";
+@import 'src/scss/mixins';
+@import 'src/scss/colors';
 
 .header {
   min-height: 50px;
@@ -32,7 +32,7 @@
         color: $hover;
       }
 
-      &[data-active=true] {
+      &[data-active='true'] {
         color: $active;
       }
     }
@@ -58,5 +58,3 @@
 
   @include hover();
 }
-
-

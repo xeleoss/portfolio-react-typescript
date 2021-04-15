@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter  } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import './localization/i18n';
 import './index.scss';
 import App from './App';

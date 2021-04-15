@@ -1,7 +1,7 @@
 import React from 'react';
 import './MyProjects.scss';
 import { useTranslation } from 'react-i18next';
-import Game from "../Game/Game";
+import Game from '../Game/Game';
 
 export default function MyProjects() {
   const { t } = useTranslation();
@@ -11,17 +11,13 @@ export default function MyProjects() {
       <dl>
         <dt>{t('my projects')}:</dt>
         <dd>
-          <a
-            href="https://cm.animebots.com/"
-            rel="noreferrer"
-            target="_blank"
-          >
+          <a href="https://cm.animebots.com/" rel="noreferrer" target="_blank">
             {t('amadeus')}
           </a>
         </dd>
         <dd>{t('other')}..</dd>
       </dl>
-      <Game/>
+      <Game />
     </section>
   );
 }
